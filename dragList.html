@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./dragList.css"/>
+    <script type="text/javascript" src="./dragList.js"></script>
+    <title>Drag n Drop list</title>
+</head>
+<body>
+    <div id="container">
+        <div id="circle" class="list-item" draggable="true" ondragleave="removeDragClass(event)"  ondragenter="dragEnter(event)" ondragstart="dragStart(event)" ondrop="dropElement(event)" ondragover="dragOver(event)">
+            <span>Circle</span>
+            <img src="./images/drag-icon.png" class="drag-icon"/>
+        </div>
+        <div id="square" class="list-item" draggable="true" ondragleave="removeDragClass(event)" ondragenter="dragEnter(event)" ondragstart="dragStart(event)" ondrop="dropElement(event)" ondragover="dragOver(event)">
+            <span>Square</span>
+            <img src="./images/drag-icon.png" class="drag-icon"/>
+        </div>
+        <div id="triangle" class="list-item" draggable="true" ondragleave="removeDragClass(event)" ondragenter="dragEnter(event)" ondragstart="dragStart(event)" ondrop="dropElement(event)" ondragover="dragOver(event)">
+            <span>Triangle</span>
+            <img src="./images/drag-icon.png" class="drag-icon"/>
+        </div>
+        <div id="recatange" class="list-item" draggable="true" ondragleave="removeDragClass(event)" ondragenter="dragEnter(event)" ondragstart="dragStart(event)" ondrop="dropElement(event)" ondragover="dragOver(event)">
+            <span>Recatange</span>
+            <img src="./images/drag-icon.png" class="drag-icon"/>
+        </div>
+        <div id="octagon" class="list-item" draggable="true" ondragleave="removeDragClass(event)" ondragenter="dragEnter(event)" ondragstart="dragStart(event)" ondrop="dropElement(event)" ondragover="dragOver(event)">
+            <span>Octagon</span>
+            <img src="./images/drag-icon.png" class="drag-icon"/>
+        </div>
+    </div>  
+</body>
+</html>

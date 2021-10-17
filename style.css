@@ -1,0 +1,45 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#drag-over-container{
+    width: 656px;
+    height: 269px;
+    border-radius: 10px;
+    border:1px solid #080808;
+    background-color: rgb(8 8 8 / 22%);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#shapes{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 656px;
+}
+
+.shape{
+    width: 100px;
+    cursor: move;
+}
+
+.drag-over-shape {
+    width: 100px;
+    height: 100px;
+    background: rgb(255 255 255 / 50%);
+    border: 1px solid black;
+}
+
+.circle-drag-over {
+    border-radius: 100%;
+}
+
+.dragged-over{
+    border: 1px solid #c90000 !important;
+    background-color: rgb(191 74 74 / 22%) !important;
+}
